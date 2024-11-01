@@ -1,0 +1,15 @@
+//LEC_2 
+#For memory Leakage check use
+$ g++ test.cpp -fsanitize=address
+
+
+# in general avoid raw pointers
+# See $ alias 
+
+
+# To compile and run in one command
+$ g++ -o Task_7 Task_7.cpp && ./Task_7
+# OR for compiling specific C++ versions
+$ g++ Task_7 Task_7.cpp -std=c++11 && ./Task_7
+
+
